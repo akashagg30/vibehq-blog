@@ -139,4 +139,4 @@ Basic deployment: 3–4 weeks. Meaningful ROI data: 8–12 weeks.
 
 The 40% cost reduction figure isn't marketing hype—it's what happens when routine, repetitive, round-the-clock customer interactions shift from expensive human hours to software costing paise per conversation. For Indian SMEs facing margin pressure from every side, AI chatbots represent one of the few investments with measurable payback inside a single quarter.
 
-Start small: pick your top ten query types, choose an SME-focused platform, launch on WhatsApp, measure relentlessly. The businesses winning in 2026 aren't necessarily spending more—they're responding faster
+Start small: pick your top ten query types, choose an SME-focused platform, launch on WhatsApp, measure relentlessly. The businesses winning in 2026 aren't necessarily spending more—they're responding faster, on more channels, at every hour of the day and night.

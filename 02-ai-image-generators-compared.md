@@ -159,4 +159,31 @@ True "made-in-India" image generators remain rare, but these options serve India
 **Q1. Is DALL-E really free in India?**
 Yes! Through Microsoft Copilot and Bing Image Creator, you get free daily generations using DALL-E technology. Paid unlimited-ish access requires ChatGPT Plus (~₹1,700/month).
 
-**Q2. Can I
+
+**Q2. Can I use AI-generated images commercially in India?**
+Generally yes, but the rules differ by platform. OpenAI's terms permit commercial use of images you generate with DALL-E, including via Microsoft Copilot, subject to its content policy. Midjourney grants commercial rights to paying subscribers — free trial users may not sell their output. For client work and paid advertising, confirm the terms of the specific plan you are on and keep your generation history as evidence of provenance. Indian agencies concerned about copyright exposure often lean toward Adobe Firefly, whose models are trained on licensed and public-domain content.
+
+**Q3. How much does Midjourney cost in rupees?**
+Midjourney bills in US dollars: $10/month (~₹850–900), $30/month (~₹2,550–2,650), $60/month, and $120/month for the top tier, with roughly 20% off on annual billing. Add forex markup, which typically runs 2–3.5% on Indian cards, plus any applicable GST treatment.
+
+**Q4. Which is better for Indian e-commerce product photography?**
+DALL-E 3, for two reasons: it follows detailed instructions far more reliably — product, background, lighting, angle — and it accepts Indian payment methods without workarounds. Midjourney produces more striking images but gives you less direct control over composition, and its payment flow is the single biggest friction point for Indian sellers.
+
+**Q5. Do I need a powerful computer to generate AI images?**
+No. DALL-E and Midjourney both run in the cloud, so a mid-range Android phone and a browser are enough. Only Stable Diffusion, which runs locally, needs a capable GPU — and if you don't have one, free hosted web UIs remain an option.
+
+**Q6. Are AI-generated images safe to use in Instagram or Meta ads?**
+Meta requires disclosure of certain realistic AI-generated content in political and social-issue advertising, and prohibits misleading imagery such as fake before-and-after claims in every category. Generated visuals are widely used in Indian advertising, but never use AI to misrepresent what a product actually looks like.
+
+**Q7. Which tool is best at rendering text, including Devanagari?**
+Ideogram currently leads at legible text rendering, followed by DALL-E 3. Midjourney still struggles with text. For posters where the headline must read correctly, generate the visual in the AI tool and set the type in Canva or Photoshop.
+
+---
+
+## Final Verdict
+
+For most Indian users in 2026 the useful question is not "which one" but "in which order." Start with **DALL-E 3 through Microsoft Copilot at ₹0** — it is free, follows instructions precisely, renders text properly, and works with Indian payment methods the moment you need a paid plan. Then add **Midjourney** when your work genuinely demands a distinctive visual style: brand imagery, editorial illustration, or a consistent aesthetic across a content calendar.
+
+If you are a designer or a content-led business, budget for the Standard tier (~₹2,550–2,650/month) rather than Basic — the unlimited relax mode and larger fast-hour allowance are what make the subscription usable for steady output. If you are a student, a first-time seller, or still testing an idea, stay free: Copilot plus occasional Leonardo or Ideogram credits will carry you a long way before you spend a rupee.
+
+One caution applies to every tool on this list: AI image generators are assistants, not art directors. The Indian creators getting the best results treat prompt craft as a real skill — building a small library of tested prompts for their own product, brand palette, and audience, then reusing it instead of starting from scratch each time.

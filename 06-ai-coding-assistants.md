@@ -100,4 +100,56 @@ For developers comfortable managing their own setup, tools like **Continue.dev, 
 
 ## Pricing Reality Check for Indian Developers
 
-Here's what these tools actually cost in ru
+Here's what these tools actually cost in rupees, and where the real value sits:
+
+| Tool | Monthly (approx.) | Annual (approx.) | Notes |
+|---|---|---|---|
+| GitHub Copilot Pro | ~₹880 | ~₹8,800 | Free for verified students and OSS maintainers |
+| Cursor Pro | ~₹1,760 | ~₹17,600 | Usage-based limits apply |
+| Windsurf Pro | ~₹1,320 | ~₹13,200 | Undercuts Copilot Pro and Cursor Pro |
+| Amazon Q Developer Pro | ~₹1,670 | ~₹16,700 | Unusually generous free tier |
+| JetBrains AI Pro | ~₹880 | ~₹8,800 | Bundled in All Products Pack |
+| Bring-your-own-key (DeepSeek / Gemini Flash) | ₹200–₹500 | — | Pay per token, no subscription markup |
+
+Three things Indian developers consistently underestimate:
+
+1. **Forex markup.** Dollar-priced subscriptions add roughly 2–3.5% on most Indian cards. A $20 plan does not land at ₹1,760 — it is usually closer to ₹1,850–₹1,900 once charges settle.
+2. **Credit limits, not sticker price.** Usage-based plans can cost considerably more than the advertised tier if you work the way heavy users work. Watch your dashboard in month one.
+3. **Student and OSS programmes.** Copilot Pro is free for verified students and open-source maintainers, and several competitors offer education discounts. If you qualify, this is the largest single saving available to you.
+
+**An effective strategy for a solo Indian developer:** start on a free tier to learn the workflow, claim a student or OSS plan if you are eligible, and only then pay for one primary tool. Keep a bring-your-own-key setup — Aider, Cline, or Continue.dev with a cheap API — as your overflow option rather than stacking a second subscription.
+
+---
+
+## Frequently Asked Questions
+
+**Q1. Which AI coding assistant is best for Indian students?**
+GitHub Copilot Pro, because it is free through the GitHub Student Developer Pack and works inside the editors students already use. Cursor's Hobby tier is a good free second option for learning agentic workflows.
+
+**Q2. Can I pay for these tools with an Indian debit card?**
+GitHub, Cursor, and most major tools accept Indian cards, and GitHub bills in USD with the usual forex markup. Occasional failures are usually bank-level international-transaction blocks rather than the vendor, so enable international usage on your card before subscribing.
+
+**Q3. Is there a free option that is still genuinely good?**
+Yes. Copilot Free, Cursor Hobby, Windsurf's free tier, and Amazon Q Developer's free tier all provide meaningful daily usage. For maximum flexibility, open-source assistants like Aider, Cline, and Continue.dev paired with a cheap API can run under ₹500/month.
+
+**Q4. Do these tools work well with Indian enterprise codebases?**
+They work on code, not prose, so language is rarely the obstacle. Where they help India-specific work most is legacy modernisation — Java and COBOL migrations, AWS infrastructure, and the large services-company repositories that dominate the market.
+
+**Q5. Will using AI assistants hurt my skills as a developer?**
+Not if you stay responsible for the design. The developers who get worse are the ones who accept suggestions without reading them. Treat the assistant as a fast pair programmer whose work you review — that review habit is what keeps your judgement sharp.
+
+**Q6. How do I choose between Copilot and Cursor?**
+If your team or college is already on GitHub, Copilot is the lower-friction choice. If you work solo on greenfield projects and want the most capable agentic experience, Cursor is worth the higher price. Many developers run Copilot on an employer's licence and Cursor on personal projects.
+
+**Q7. What about data privacy for client work?**
+This matters if you freelance for clients with confidentiality clauses. Business and Enterprise tiers of Copilot exclude your code from model training, and Cursor offers a privacy mode. Never paste client credentials or proprietary code into a free, consumer-grade tier.
+
+---
+
+## Final Verdict
+
+For most Indian developers in 2026, **GitHub Copilot remains the default**: best distribution, broadest IDE support, enterprise-grade governance, and free for students and open-source maintainers. **Cursor is the better tool for solo builders** who want the strongest agentic workflow and are willing to pay roughly double.
+
+If budget decides, **Windsurf Pro at ~₹1,320/month undercuts both**, and a **bring-your-own-key setup** with Aider or Cline can bring the cost under ₹500/month for a developer comfortable with configuration.
+
+Whichever you choose, the subscription is not what makes you faster — the workflow is. Learn one tool properly: use agent mode for scaffolding, keep automated code review on for every pull request, and let the assistant handle tests and boilerplate while you stay on architecture and product decisions. That division of labour is what separates developers who genuinely accelerate from those who simply accept more suggestions.

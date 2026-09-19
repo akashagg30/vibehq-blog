@@ -101,4 +101,66 @@ Premiere Pro has been the industry standard for decades, and Adobe's Firefly AI 
 ### Key AI Features
 
 - **Text-Based Editing:** Yes, Adobe copied this playbook too. Search transcripts, edit by deleting text, and rearrange paragraphs of footage.
-- **Generative Extend (Firefly):** Clip ends too abruptly? AI generates extra
+- **Generative Extend (Firefly):** Clip ends too abruptly? AI generates extra frames to lengthen a shot, so you can hold a moment longer without reshooting.
+- **Enhanced Speech:** Removes background noise and cleans up dialogue — useful for footage shot on location in Indian cities, where traffic, fans, and crowds are difficult to avoid.
+- **Auto Colour & Auto Reframe:** Matches colour across clips and automatically converts horizontal footage to vertical for Reels and Shorts.
+- **Text-Based Editing & AI Captions:** Searchable transcripts, transcript-driven edits for long interviews, and automatic captions with multi-language support.
+
+### Pricing in India
+
+| Plan | Approximate Cost | Notes |
+|---|---|---|
+| Premiere Pro (single app) | ~₹1,600–₹1,800/month | Annual plan, billed monthly |
+| Creative Cloud All Apps | ~₹4,500–₹5,000/month | Full Adobe suite |
+| Student/Teacher (All Apps) | ~₹1,500–₹2,000/month | Valid student ID required |
+
+Adobe bills in rupees, which removes the forex friction that affects Descript. There is no meaningful free tier — a 7-day trial is the only way to test it properly.
+
+### The Catch
+
+Premiere is heavy. It wants a reasonably powerful laptop, and it assumes you already know your way around a timeline. The AI features are genuinely useful, but they are assistants inside a professional editor, not replacements for editing skill. If your goal is to publish a Reel in fifteen minutes, this is the wrong tool.
+
+---
+
+## Which Tool Should You Choose?
+
+| Your Situation | Recommended Tool | Why |
+|---|---|---|
+| Reels, Shorts, e-commerce product videos | **CapCut** | Free, fast, built for vertical video, UPI-friendly payments |
+| Podcasts, talking-head YouTube, courses | **Descript** | Text-based editing removes hours of manual cutting |
+| Client work, wedding films, brand campaigns | **Adobe Premiere Pro** | Professional output, INR billing, full manual control |
+
+**A practical combination for most Indian creators:** edit short-form in **CapCut** for speed, and keep **Descript** for any long-form spoken content. Move to Premiere only when a paying client's deliverable demands it.
+
+---
+
+## Frequently Asked Questions
+
+**Q1. Which AI video editing tool is completely free?**
+CapCut's free tier is the most capable free option and covers most short-form needs, though some templates, effects, and watermark-free exports require Pro. Descript's free plan allows about an hour of transcription per month with export limits.
+
+**Q2. Can these tools generate captions in Hindi and other Indian languages?**
+Yes. CapCut handles Hindi and Indian English well, and Premiere's caption tools support multiple languages. Accuracy on regional languages is improving but not perfect — always proofread captions before publishing, especially names, technical terms, and dialect.
+
+**Q3. Do AI video editors work on mid-range Android phones?**
+CapCut does, comfortably. Descript and Premiere Pro are desktop-only and need a reasonably capable Windows or Mac machine.
+
+**Q4. Will AI editing make my content look like everyone else's?**
+It can, if you rely entirely on trending templates. Use AI for the repetitive work — captions, cuts, noise removal — and make the creative choices yourself.
+
+**Q5. Can I pay for these tools using UPI?**
+CapCut Pro can be purchased through Google Play or the App Store, where UPI and Indian cards work. Descript bills in US dollars and needs an international-enabled card. Adobe bills in rupees.
+
+**Q6. Is AI voice cloning allowed for commercial videos?**
+Yes, provided you have the right to the voice you clone. Cloning your own voice with Descript's Overdub is straightforward. Never clone another person's voice without written consent — it creates both legal and platform-policy problems.
+
+**Q7. How much should a beginner budget?**
+Start at ₹0 with CapCut. Once editing time becomes your bottleneck, around ₹1,000/month for Descript or a CapCut Pro annual plan is the sensible next step. Premiere only makes sense once client income justifies it.
+
+---
+
+## Final Verdict
+
+There is no single best AI video editor in 2026 — there is a best editor for your format and your budget. **CapCut wins on speed and cost** and is where almost every Indian creator should start. **Descript wins on long-form efficiency**, and for podcasters and course creators it pays for itself in the first week. **Premiere Pro remains the professional standard** when the work is client-facing and the deliverable has to hold up on a large screen.
+
+The honest advice for most Indian creators: pick one, learn its AI features properly rather than dabbling in five, and reinvest the hours you save into publishing more consistently. Consistency, not editing polish, is what grows a channel.

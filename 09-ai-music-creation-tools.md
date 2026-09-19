@@ -96,6 +96,32 @@ A: Platform terms have varied over time; some have requested attribution. Check 
 **Q: Are regional Indian languages supported?**
 A: Yes, both platforms handle Hindi, Tamil, Telugu, Punjabi, Bengali, and other languages, though pronunciation accuracy varies and may require regenerating specific sections.
 
+## How to Choose in Practice
+
+| Your Situation | Recommended Tool | Why |
+|---|---|---|
+| Complete songs with vocals and lyrics | **Suno AI** | Strongest songwriting intelligence and multilingual vocal handling |
+| Instrumental beds and background scores | **Udio** | Best fidelity on individual segments and layered production |
+| Jingle or demo on the tightest budget | **Free tiers (both)** | Test the workflow at ₹0 before committing |
+| Commercial release or client deliverable | **Either, on a paid plan** | Commercial rights are tied to paid subscriptions |
+| Building a long-term catalogue | **Either, using Personas** | Consistent vocal identity across releases |
+
+---
+
+## The Rules Worth Following Without Exception
+
+1. Buy a paid plan before any commercial release — free-tier output is personal-use only.
+2. Write your own lyrics where you can; it strengthens both your legal position and the work itself.
+3. Never prompt with a living artist's name or style.
+4. Keep records of your creative process — they are your evidence of human authorship.
+5. Disclose AI involvement wherever the platform, distributor, or client requires it.
+
+---
+
 ## Conclusion
 
-AI music tools in 2026 are no longer a curiosity—they're a legitimate part of the
+AI music tools in 2026 are no longer a curiosity—they're a legitimate part of the production toolkit for independent artists, content creators, filmmakers, and businesses alike. What has changed is not only the quality of the output but the seriousness of the questions around it: licensing, ownership, and commercial rights now matter as much as how a track sounds.
+
+For Indian creators the opportunity is unusually well-timed. Regional-language support means a Tamil or Punjabi lyricist can prototype and release without studio overhead, and the cost of a full production has fallen from lakhs to a subscription fee. That has real commercial consequences for jingles, YouTube background scores, indie releases, and film pre-production.
+
+Both platforms will keep iterating, and the licensing landscape will keep shifting. What will not change is the underlying principle: AI lowers the cost of production, but it does not remove the need for taste, direction, and honest disclosure. The creators who treat these tools as instruments rather than shortcuts are the ones building catalogues worth owning.
