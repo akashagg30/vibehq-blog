@@ -51,8 +51,9 @@ All 10 articles have:
 
 - ❌ **0 external links across all 10 articles** — no affiliate links, no product links.
   This blocks affiliate revenue entirely and needs affiliate accounts.
-- ❌ **0 internal links between articles** — no topical cluster yet. Deliberately deferred
-  until the publish URL structure is fixed, so links are not born broken.
+- ⚠️ **0 internal links inside the `.md` sources** — the cluster now exists in the generated HTML
+  (3 relative "Related reading" links per page, built 2026-09-20), so the sources stay clean and
+  links cannot be born broken regardless of the publish path.
 - ❌ **0 images / featured images.**
 - ❌ Length now 1,246–1,897 words; still at/just below the
   1,800–2,500 band competitive "best X tools 2026" SERP terms typically require.
@@ -104,6 +105,31 @@ Reproducible script: `~/akash/company/scripts/fix-content-articles.py`
 - Professional yet accessible tone
 - Updated for 2026 market conditions
 
+## Deployable static site — built, not yet published (2026-09-20)
+
+`site/` in this directory is a **generated, self-contained static site** for the 10 articles.
+It is not committed (listed in `.git/info/exclude`); regenerate it any time:
+
+```bash
+~/.venvs/blog/bin/python ~/akash/company/scripts/build-blog-site.py --base-url https://<host>/<path>
+~/.venvs/blog/bin/python ~/akash/company/scripts/verify-blog-site.py   # 0 = all checks pass
+~/.venvs/blog/bin/python -m http.server 8099 --bind 127.0.0.1          # preview from site/
+```
+
+Contents: `index.html`, 10 article pages, `sitemap.xml`, `feed.xml` (RSS), `robots.txt`, `style.css`
+(no external CDN assets). Each page has title/meta description/canonical/OG tags, Article JSON-LD,
+and a **"Related reading" block with 3 relative internal links** — the topical cluster that was
+previously deferred. All internal links are relative, so the site works at **any** base path
+(`/`, `/blog`, a subdomain); only canonical/OG/sitemap URLs depend on `--base-url`.
+
+Verified 2026-09-20: `verify-blog-site.py` passes (links resolve, no leaked markdown, FAQ +
+verdict + comparison table on every page, 30 internal link edges, sitemap 11 URLs, feed 10 items),
+and all pages served 200 over a local HTTP server.
+
+**Blocker on going live:** publishing needs approval (proposal D2a) *and* a host that actually
+serves `vibehq.in`. `vibehq.in` is Porkbun-parked and does **not** point at the Render workspace,
+so a Render deploy yields an `*.onrender.com` URL unless DNS is repointed (Akash's registrar login).
+
 ## Next Steps
 
 - [x] Add `meta_description` frontmatter to all articles (done 2026-09-12)
@@ -111,7 +137,7 @@ Reproducible script: `~/akash/company/scripts/fix-content-articles.py`
 - [x] Remove false affiliate disclosure from article 10 (done 2026-09-20)
 - [ ] **Add affiliate links** (blocks all revenue — needs affiliate accounts)
 - [ ] Add featured images to each article
-- [ ] Set up internal linking structure (after publish URL scheme is decided)
+- [x] Set up internal linking structure — every generated page carries 3 relative "Related reading" links (2026-09-20)
 - [ ] Create social media snippets
 - [ ] Schedule publication dates
-- [ ] Deploy to a working host (currently 404 at `vibehq.in/blog`)
+- [ ] Deploy the built `site/` to a working host (still 404 at `vibehq.in/blog`; needs D2a approval + a host that serves the domain)
