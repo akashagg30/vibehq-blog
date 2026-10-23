@@ -57,7 +57,9 @@ All 10 articles have:
 - ❌ **0 images / featured images.**
 - ❌ Length now 1,246–1,897 words; still at/just below the
   1,800–2,500 band competitive "best X tools 2026" SERP terms typically require.
-- ❌ Unpublished — `https://vibehq.in/blog` returns 404.
+- ❌ Unpublished **on `vibehq.in`** — `https://vibehq.in/blog` still returns 404 (domain is
+  Porkbun-parked). **The site itself IS published** on Render since 2026-10-23 16:05 IST:
+  `https://vibehq-blog.onrender.com/` → 200, byte-identical to `site/`.
 
 ## Completion log
 
@@ -105,10 +107,12 @@ Reproducible script: `~/akash/company/scripts/fix-content-articles.py`
 - Professional yet accessible tone
 - Updated for 2026 market conditions
 
-## Deployable static site — built, not yet published (2026-09-20)
+## Deployable static site — **built and LIVE** (built 2026-09-20; deployed 2026-10-23)
 
 `site/` in this directory is a **generated, self-contained static site** for the 10 articles.
-It is not committed (listed in `.git/info/exclude`); regenerate it any time:
+It is now **committed** (force-added in `00e8ea3`; it was previously listed in
+`.git/info/exclude`) because Render builds from the repo and needs it present. Regenerate it any
+time:
 
 ```bash
 ~/.venvs/blog/bin/python ~/akash/company/scripts/build-blog-site.py --base-url https://<host>/<path>
@@ -126,9 +130,25 @@ Verified 2026-09-20: `verify-blog-site.py` passes (links resolve, no leaked mark
 verdict + comparison table on every page, 30 internal link edges, sitemap 11 URLs, feed 10 items),
 and all pages served 200 over a local HTTP server.
 
-**Blocker on going live:** publishing needs approval (proposal D2a) *and* a host that actually
-serves `vibehq.in`. `vibehq.in` is Porkbun-parked and does **not** point at the Render workspace,
-so a Render deploy yields an `*.onrender.com` URL unless DNS is repointed (Akash's registrar login).
+**Blocker on going live:** ~~publishing needs approval (proposal D2a)~~ **approval given and
+executed 2026-10-23** — see below. The remaining gap is the **domain**: `vibehq.in` is
+Porkbun-parked (`pixie.porkbun.com`, 207.207.210.x) and does **not** point at the Render
+workspace, so the live site is on an `*.onrender.com` URL. Repointing DNS is Akash's registrar
+login (L3), not an agent task.
+
+**LIVE (2026-10-23 16:05 IST).** Render **static site** `vibehq-blog`
+(`srv-dbdjd52vcj2c73fvr770`, dashboard `…/static/srv-dbdjd52vcj2c73fvr770`), repo
+`github.com/akashagg30/vibehq-blog`, branch `main`, **publishPath `site`**, auto-deploy on
+commit. Deploy `dep-dbdjgnrncjis73adsqa0` → `live`. Reached at
+**https://vibehq-blog.onrender.com/**. Verified from outside: root + article pages + `sitemap.xml`
++ `feed.xml` + `robots.txt` + `style.css` all **200** and **byte-identical to `site/`**; an
+unknown path returns `404.html` with status **404**. First build **failed** (`Publish directory
+site does not exist`) because `site/` was gitignored — fixed by force-adding the 17 built files
+in commit `00e8ea3`.
+
+**Revenue is still ₹0**: the 10 articles carry **0 external links** (no affiliate/CTA URLs), so a
+live URL changes distribution, not monetisation. Monetisation needs affiliate accounts or a
+product to sell — neither exists.
 
 ## Next Steps
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vibehq.in/blog/sitemap.xml
+Sitemap: https://vibehq-blog.onrender.com/sitemap.xml
